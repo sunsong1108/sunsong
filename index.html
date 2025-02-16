@@ -17,42 +17,39 @@
             src: url('fonts/HM-M.ttf') format('truetype');
         }
         body {
-            font-family: 'HM-M', sans-serif;
+            font-family: 'xwwk', sans-serif; /* 修改为 xwwk 字体 */
             margin: 0;
             padding: 0;
             background-color: #f5f5f5;
             color: #333;
         }
-       .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-inline: 25px; /* 仅设置左右内边距 */
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-inline: 25px; /* 仅设置左右内边距 */
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
         .logo-container {
             display: flex;
             align-items: center;
         }
         .logo img {
-        height: 60px; /* 增加了LOGO图片的高度 */
-        margin-right: 10px;
-    }
-
+            height: 60px; /* 增加了LOGO图片的高度 */
+            margin-right: 10px;
+        }
         .title {
             font-size: 25px;
         }
-  .nav a {
-        margin: 0 15px; /* 增加了链接之间的距离 */
-        color: #3498DB; /* 设置链接文字颜色与一般文字颜色一致 */
-        text-decoration: none;
-    }
-
-    .nav a:hover, .footer a:hover {
-        color: #B82020; /* 鼠标悬停时链接文字颜色变化 */
-    }
-   
+        .nav a {
+            margin: 0 15px; /* 增加了链接之间的距离 */
+            color: #3498DB; /* 设置链接文字颜色与一般文字颜色一致 */
+            text-decoration: none;
+        }
+        .nav a:hover, .footer a:hover {
+            color: #B82020; /* 鼠标悬停时链接文字颜色变化 */
+        }
         .container {
             max-width: 1080px;
             margin: 20px auto;
@@ -60,50 +57,39 @@
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            font-family: 'xwwk', sans-serif; /* 确保容器内文字也使用 xwwk 字体 */
         }
         .separator {
             height: 1px;
             background-color: #ddd;
             margin: 25px 0;
         }
-  
-a {
-    margin: 0 15px; /* 链接之间的水平间距 */
-    color: #3498DB; /* 链接文字颜色为深灰色 */
-    text-decoration: none; /* 移除下划线 */
-}
-
-a:hover, .footer a:hover {
-    color: #B82020; /* 悬停时链接文字颜色变为蓝色 */
-}
-
-
-
-
-  .footer {
-        font-family: 'HM-M', sans-serif;
-        text-align: center;
-        padding: 10px;
-        background-color: #eee; /* 设置页脚背景为浅灰色 */
-        color: #666; /* 设置页脚文字为好看的灰色 */
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        font-size: 12px;
-    }
-
-    .footer a {
-        color: #666; /* 设置页脚链接文字为好看的灰色 */
-        text-decoration: none;
-    }
-
-    .footer a:hover {
-        color: #B82020; /* 鼠标悬停时链接文字颜色变化 */
-    }
-
         a {
-            target: "_blank";
+            margin: 0 15px; /* 链接之间的水平间距 */
+            color: #3498DB; /* 链接文字颜色为深灰色 */
+            text-decoration: none; /* 移除下划线 */
+        }
+        a:hover, .footer a:hover {
+            color: #B82020; /* 悬停时链接文字颜色变为蓝色 */
+        }
+        .footer {
+            font-family: 'HM-M', sans-serif;
+            text-align: center;
+            padding: 10px;
+            background-color: #eee; /* 设置页脚背景为浅灰色 */
+            color: #666; /* 设置页脚文字为好看的灰色 */
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            font-size: 12px;
+        }
+        .footer a {
+            color: #666; /* 设置页脚链接文字为好看的灰色 */
+            text-decoration: none;
+        }
+        .footer a:hover {
+            color: #B82020; /* 鼠标悬停时链接文字颜色变化 */
         }
     </style>
 </head>
@@ -116,38 +102,29 @@ a:hover, .footer a:hover {
             <div class="title">拾光随笔</div>
         </div>
         <div class="nav">
-
-
-<a href="https://chat.sunsong.us.kg/" target="_blank">NextChat</a>
-<a href="https://lobe.sunsong.us.kg/" target="_blank">LobeChat</a>
-<a href="https://web.chatboxai.app/" target="_blank">ChatBox</a>            
-<a href="https://chat.qwenlm.ai/" target="_blank">Qwen-Chat</a>     
-
-</div>
+            <a href="https://chat.sunsong.us.kg/" target="_blank">NextChat</a>
+            <a href="https://lobe.sunsong.us.kg/" target="_blank">LobeChat</a>
+            <a href="https://web.chatboxai.app/" target="_blank">ChatBox</a>            
+            <a href="https://chat.qwenlm.ai/" target="_blank">Qwen-Chat</a>     
+        </div>
     </div>
-    
 
+    <div class="container">
+        <p>在旅途的起点，我带着一颗好奇的心和简单的行囊出发，骑行的乐趣不仅在于到达目的地，更在于旅途中的体验。<a href="https://www.sunsong.us.kg" target="_blank">链接地址</a></p>
+        <div class="separator"></div> <!-- 分隔线 -->
+    </div>
 
+    <div class="footer">
+        <a href="https://www.sunsong.us.kg/" target="_blank">Copyright © 2025 Soren Sun</a>  |  <a href="mailto:sunsong2000@outlook.com">sunsong2000@outlook.com</a>
+    </div>
 
-<div class="container">
- <p>在旅途的起点，我带着一颗好奇的心和简单的行囊出发，骑行的乐趣不仅在于到达目的地，更在于旅途中的体验。<a href="https://www.sunsong.us.kg" target="_blank">链接地址</a></p>
-<div class="separator"></div> <!-- 分隔线 -->
-
-
-</div>
-
-<div class="footer">
-    <a href="https://www.sunsong.us.kg/" target="_blank">Copyright © 2025 Soren Sun</a>  |  <a href="mailto:sunsong2000@outlook.com">sunsong2000@outlook.com</a>
-</div>
-
-<script>
-    // 确保所有a标签在新窗口打开
-    document.querySelectorAll('a').forEach(a => {
-        if (!a.target) {
-            a.target = '_blank';
-        }
-    });
-</script>
+    <script>
+        // 确保所有a标签在新窗口打开
+        document.querySelectorAll('a').forEach(a => {
+            if (!a.target) {
+                a.target = '_blank';
+            }
+        });
+    </script>
 </body>
 </html>
-
